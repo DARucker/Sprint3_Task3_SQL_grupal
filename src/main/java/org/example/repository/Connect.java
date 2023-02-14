@@ -6,9 +6,9 @@ import java.sql.DriverManager;
 public class Connect {
 
     private final static String url = "jdbc:mysql://localhost:3306/floristeria";
-    private final static String user = "root";
+    private final static String user = "rooot"; //"root"
 
-    private final static String pass = "1234"; // "administrador"; // "1234"; //
+    private final static String pass =  "admin%&123"; // "admin%&123"; // "administrador"; // "1234"; //
 
     public Connection connect(){
 
